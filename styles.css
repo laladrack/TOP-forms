@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    min-width: 100%;
+    font-family: 'Inter';
+}
+
+.html-div {
+    display: flex;
+    max-height: 100%;
+}
+
+.pic-block {
+    background-image: url(./Assets/cecilia-frost-M9D3poaqPzk-unsplash.jpg);
+    font-family: 'Alumni Sans SC';
+    text-transform:uppercase;
+    padding: 1em;
+    min-width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.white-block {
+    background: linear-gradient(rgb(252, 248, 250) 0%, rgb(244, 249, 255) 100%);
+}
+
+.hero {
+    padding: 1.5em;
+}
+
+.form-block {
+    padding: 1.5em;
+    background-color: white;
+
+    
+
+}
+
