@@ -1,51 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="styles.css">
-    <title>Forms TOP</title>
-</head>
-<body>
-    <div class="html-div">
-        <div class="pic-block">
-            <h1>Nova Rede-Social Bem Legal!</h1>
-        </div>
-
-        <div class="white-block">
-            <div class="hero">
-                <h3>Não é uma rede social real! É uma página-protótipo para aprender formulários em HTML com o <a href="https://www.theodinproject.com/">The Odin Project.</a></h3>
-                <h3>Se inscreva já!</h3>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="styles.css">
+        <title>Forms TOP</title>
+    </head>
+    <body>
+        <div class="html-div">
+            <div class="pic-block">
+                <div class="name-background"><h1>Nova Rede-Social Bem Legal!</h1></div>
             </div>
 
-            <form action="/data.txt">
-                <div class="form-block">
-                    <h3>Inscrição</h3>
-                    <div id="forms-block-1">
-                        <label for="first-name">Primeiro nome</label><input type="text" id="first-name" required>
-                        <label for="phone-num">Celular</label><input type="tel" required>
-                        <label for="pwd">Senha</label><input type="password" required>
-                    </div>
-
-                    <div id="forms-block-2">
-                        <label for="last-name">Sobrenome</label><input type="text" id="last-name" required>
-                        <label for="mail">E-mail</label><input type="email" id="mail" required>
-                        <label for="pwd-con">Confirme sua senha</label><input type="password" required>
-                    </div>
+            <div class="white-block">
+                <div class="hero">
+                    <h3>Não é uma rede social real! É uma página-protótipo para aprender formulários em HTML com o <a href="https://www.theodinproject.com/"><i>The Odin Project.</i></a></h3>
+                    <h3>Se inscreva <i>já!</i></h3>
                 </div>
 
-                <button type="submit">Criar uma conta</button>
-                <h5>Já tem uma conta? <a href="">Log in</a></h5>
-            </form>
+                <form action="/data.txt">
+                    <div class="form-block">
+                        <h3>Vamos lá!</h3>
+                        <div class="form-div">
+                            <div id="forms-block-1">
+                                <label for="first-name">Primeiro nome</label><input type="text" id="first-name" required>
+                                <label for="phone-num">Celular</label><input type="tel" required>
+                                <label for="pwd">Senha</label><input type="password" required>
+                            </div>
+
+                            <div id="forms-block-2">
+                                <label for="last-name">Sobrenome</label><input type="text" id="last-name" required>
+                                <label for="mail">E-mail</label><input type="email" id="mail" required>
+                                <label for="pwd-con">Confirme sua senha</label><input type="password" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="button-div">
+                        <button type="submit">Criar uma conta</button>
+                        <p>Já tem uma conta? <a href="">Log in</a></p>
+                    </div>
+                </form>
+            </div>
         </div>
-    </div>
-</body>
+    </body>
 </html>

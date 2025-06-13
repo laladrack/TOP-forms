@@ -7,6 +7,7 @@ body {
     height: 100%;
     min-width: 100%;
     font-family: 'Inter';
+    background: linear-gradient(rgb(253, 251, 252) 0%, rgb(245, 245, 245) 100%);
 }
 
 .html-div {
@@ -32,11 +33,6 @@ body {
     opacity: 0.9;
 }
 
-.white-block {
-    background: linear-gradient(rgb(253, 251, 252) 0%, rgb(245, 245, 245) 100%);
-    
-}
-
 .hero {
     padding: 2em;
     margin-top: 3em;
@@ -49,6 +45,10 @@ body {
     padding: 1.5em;
     background-color: white;
     box-shadow: 0 0.2em 0.6em grey;
+}
+
+.white-block {
+    height: 100%;
 }
 
 .form-div {
@@ -74,6 +74,7 @@ form input {
     border-radius: 3px;
     width: 100%;
     padding: 2px;
+    outline: none;
 }
 
 form label {
@@ -105,4 +106,23 @@ form label {
 #button-div a {
     color: rgb(83, 108, 146);
     text-decoration: none;
+}
+
+#button-div button:hover {
+    border: 1px solid rgb(6, 41, 94);
+    cursor: pointer;
+}
+
+form input:focus {
+    border: 1px solid rgb(6, 41, 94);
+    box-shadow: 1px 1px 2px rgb(165, 171, 226);
+}
+
+form input:valid {
+    border-color: green;
+}
+
+form input:invalid {
+    color: #b92326;
+    border-color: red;
 }
