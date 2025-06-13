@@ -29,6 +29,7 @@ body {
 
 .pic-block h1 {
     background-color: rgb(86, 90, 122);
+    width: 100%;
     color: #FFFFFF;
     opacity: 0.9;
 }
